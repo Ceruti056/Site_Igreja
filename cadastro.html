@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="btnVoltar">
+        <a href="index.html"><button>Voltar</button></a>
+        <img class="imgLogo" src="./images/imgLogoIgreja1.png" alt="">
+    </div>
+
+    <div class="divCadastro">
+        <div class="cadastroEve">
+            <h2 class="titleCadastro">Cadastro de Evento</h2>       
+            <img class="imgAdd" src="./images/adicionar-imagem.png" alt="">
+
+            <input type="text" placeholder="titulo">
+            <br></br>
+            <input type="text" placeholder="descrição">
+            <br></br>
+            <input type="text" placeholder="data-início">
+            <br></br>
+            <input type="text" placeholder="data-fim">
+            <br></br>
+            <button>Salvar</button>
+        </div>
+        
+        <div class="cadastroNot">
+            <h2 class="titleCadastro">Cadastro de Notícia</h2>
+            <input type="text" placeholder="titulo">
+            <br></br>
+            <input type="text" placeholder="conteúdo">
+            <br></br>
+            <input type="text" placeholder="imagem">
+            <br></br>
+            <input type="text" placeholder="autor">
+            <br></br>
+            <input type="text" placeholder="data">
+            <br></br>
+            <button>Salvar</button>
+        </div>
+    </div>
+
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 0;
+                height: 100vh;
+                
+            }
+            input {
+                width: 100%;
+                padding: 1.5%;
+                margin-bottom: 16px;
+                box-sizing: border-box;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+    
+            button {
+                background-color: #4caf50;
+                color: #fff;
+                padding: 16px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                width: 25%;
+            }
+    
+            button:hover {
+                background-color: #45a049;
+            }
+        </style>
+</body>
+</html>
